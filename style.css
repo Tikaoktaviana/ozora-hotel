@@ -1,22 +1,27 @@
-
+@media only screen and (min-width: 320px) {
+}
+@media only screen and (min-width: 1024px){
+}
 *{
-    margin: 0;
     padding:0;
+    margin:0;
     box-sizing: border-box;
 }
-
-#background{
+.background{
     background-image: url(./img/background.png);
-    min-width:auto;
-    max-height: 9900px;
-    max-width: 1920px; 
-    position: center;
-    margin-left: 50px;
-    margin-right: 50px;
     background-repeat: no-repeat;
-}   
-.ozora-hotel{
-    background-image: url();
-    width: auto;
-    height: auto;
+    background-size: contain;
+    max-width: 1940px;
+    height: 9900px;
+    margin-top: 0;
+}
+.top1{
+    margin: 60px 100px;
+    padding: 480px 100px;
+    margin-left: 270px;
+}
+.top2{
+    margin:-500px;
+    padding: 10px 100px;
+    margin-left: 40px;
 }
