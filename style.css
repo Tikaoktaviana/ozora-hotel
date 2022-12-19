@@ -37,16 +37,26 @@
     display: block;
 }
 
+
+.familyandgrup{
+    margin-top: -650px;
+    margin-left: 300px;
+
+}
 .familygrup{
-    width:400px;
-    height: 300px;
+    width:900px;
+    height: 500px;
     margin:1200px;
-    margin-left: 20px;
-    margin-top: -50px;
+    margin-left: 170px;
+    margin-top: 1140px;
     top:50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 10px 25px 30px(0,0,0,0);
+}
+.snow-family{
+    margin-top: -650px;
+    margin-left: 300px;
 }
