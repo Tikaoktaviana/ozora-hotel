@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>hotel ozora</title>
+    <style>
+        .mySlides {display:none;}
+    </style>
 </head>
 <body>
     <div class="background">
@@ -20,19 +23,37 @@
             <div class="familyandgrup">
                 <img src="./img/familyandgrup.png" width="600px", height="120px"></div>
    
-            <div class="familygrup">
-                <div class="wrap">
-                    <img src="./img/01_family.jpg">
-                    <img src="./img/02_family.jpg">
-                    <img src="./img/03_family.jpg">
-                    <img src="./img/04_family.jpg">
-                    <img src="./img/05_family.jpg">
-                </div>
-            </div>
-            <div class="test">
-                    <div class="test">
-                    <img src="./img/02_family.jpg"></div>
-             </div>
+             <div class="familygrup">
+                <img class="mySlides" src="./img/01_family.jpg" style="width:50%">
+                <img class="mySlides" src="./img/02_family.jpg" style="width:50%">
+                <img class="mySlides" src="./img/03_family.jpg" style="width:50%">
+                <img class="mySlides" src="./img/04_family.jpg" style="width:50%">
+                <img class="mySlides" src="./img/05_family.jpg" style="width:50%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+              
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+              
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+              
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+              }
+              </script>
+              
         </div>
     </div>
 </body>
