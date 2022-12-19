@@ -7,6 +7,73 @@
     margin:0;
     box-sizing: border-box;
 }
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 90px;
+    height: 50px;
+    display: flex;
+}
+.slides input{
+    display: flex;
+}
+.slide{
+     width: 20%;
+     transition:2s;
+}
+.slide img{
+    width: 300px;
+    height: 200px;
+    margin-left: 300px;
+}
+/*css for manual slide navigation*/
+.navigation-manual{
+    position: absolute;
+    width: 200px;
+    margin-top: -48px;
+    display: flex;
+    justify-content: center;
+
+}
+.manual-btn{
+    border: brown;
+    padding:5px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+.manual-btn:hover{
+    background: red;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: 40%;
+}
+#radio4:checked ~ .first{
+    margin-left: 60%;
+}
+#radio5:checked ~ .first{
+    margin-left: 80%;
+}   
+
 .background{
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
