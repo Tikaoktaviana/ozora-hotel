@@ -13,13 +13,14 @@
     align-items: center;
 }
 .slider{
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
+    width: 1200px;
+    height: 900px;
     overflow: hidden;
+    margin-left: 300px;
+    margin-top: 10px;
 }
 .slides{
-    width: 90px;
+    width: 100px;
     height: 50px;
     display: flex;
 }
@@ -27,13 +28,13 @@
     display: flex;
 }
 .slide{
-     width: 20%;
+     width: 90%;
      transition:2s;
 }
 .slide img{
-    width: 300px;
-    height: 200px;
-    margin-left: 300px;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
 }
 /*css for manual slide navigation*/
 .navigation-manual{
@@ -45,7 +46,7 @@
 
 }
 .manual-btn{
-    border: brown;
+    border: rgb(255, 0, 119);
     padding:5px;
     border-radius: 10px;
     cursor:pointer;
@@ -126,4 +127,18 @@
 .snow-family{
     margin-top: -400px;
     margin-left: 350px;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    margin-top: 460px;
+
+}
+.navigation-auto div{
+    border: 2px solid #ffff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
 }
