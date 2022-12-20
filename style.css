@@ -12,6 +12,51 @@
     margin-top: 0;
 
 }
+.top1{
+    margin: 60px 100px;
+    padding: 480px 100px;
+    margin-left: 270px;
+}
+.top2{
+    margin:-500px;
+    padding: 10px 100px;
+    margin-left: 40px;
+}
+.star{
+    margin:500px;
+    padding: 10px 40px;
+    margin-left: -10px;
+}
+.familygrup{
+    margin:-650px;
+    padding: 10px 40px;
+    margin-left: 300px;
+    display: block;
+}
+
+
+.familyandgrup{
+    margin-top: -650px;
+    margin-left: 300px;
+
+}
+.familygrup{
+    width:900px;
+    height: 500px;
+    margin:1200px;
+    margin-left: 170px;
+    margin-top: 1140px;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 10px 25px 30px(0,0,0,0);
+}
+.snow-family{
+    margin-top: -400px;
+    margin-left: 350px;
+}
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
