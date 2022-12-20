@@ -2,78 +2,6 @@
 }
 @media only screen and (min-width: 1024px){
 }
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.slider{
-    width: 1200px;
-    height: 900px;
-    overflow: hidden;
-    margin-left: 300px;
-    margin-top: 10px;
-}
-.slides{
-    width: 100px;
-    height: 50px;
-    display: flex;
-}
-.slides input{
-    display: flex;
-}
-.slide{
-     width: 90%;
-     transition:2s;
-}
-.slide img{
-    width: 500px;
-    height: 300px;
-    margin-left: -100px;
-}
-/*css for manual slide navigation*/
-.navigation-manual{
-    position: absolute;
-    width: 200px;
-    margin-top: -48px;
-    display: flex;
-    justify-content: center;
-
-}
-.manual-btn{
-    border: rgb(255, 0, 119);
-    padding:5px;
-    border-radius: 10px;
-    cursor:pointer;
-    transition: 1s;
-}
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-
-}
-.manual-btn:hover{
-    background: red;
-}
-#radio1:checked ~ .first{
-    margin-left: 0;
-}
-#radio2:checked ~ .first{
-    margin-left: 100%;
-}
-#radio3:checked ~ .first{
-    margin-left: -200%;
-}
-#radio4:checked ~ .first{
-    margin-left: -200%;
-}
-#radio5:checked ~ .first{
-    margin-left: -300%;
-}   
 
 .background{
     background-image: url(./img/background.png);
@@ -82,63 +10,95 @@
     max-width: 1940px;
     height: 9900px;
     margin-top: 0;
-}
-.top1{
-    margin: 60px 100px;
-    padding: 480px 100px;
-    margin-left: 270px;
-}
-.top2{
-    margin:-500px;
-    padding: 10px 100px;
-    margin-left: 40px;
-}
-.star{
-    margin:500px;
-    padding: 10px 40px;
-    margin-left: -10px;
-}
-.familygrup{
-    margin:-650px;
-    padding: 10px 40px;
-    margin-left: 300px;
-    display: block;
-}
-
-
-.familyandgrup{
-    margin-top: -650px;
-    margin-left: 300px;
 
 }
-.familygrup{
-    width:900px;
-    height: 500px;
-    margin:1200px;
-    margin-left: 170px;
-    margin-top: 1140px;
-    top:50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    box-shadow: 10px 25px 30px(0,0,0,0);
-}
-.snow-family{
-    margin-top: -400px;
-    margin-left: 350px;
-}
-.navigation-auto{
-    position: absolute;
-    display: flex;
-    width: 500px;
-    justify-content: center;
-    margin-top: 460px;
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-.navigation-auto div{
-    border: 2px solid #ffff;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
