@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <title>hotel ozora</title>
     <style>
         .mySlides {display:none;}
@@ -14,84 +18,149 @@
     <div class="background">
      <header class="header">
       </header>
-      <div class="top1">
-        <img src="./img/top1.png" width="600px", height="250px"></div>
-    <div class="top2">
-        <img src="./img/top2.png" width="1000px", height="200px"></div>
-        <div class="star">
-            <img src="./img/star.png" width="1200px", height="150px"></div>
-            <div class="familyandgrup">
-                <img src="./img/familyandgrup.png" width="600px", height="120px"></div>
-                <div class="snow-family">
-                    <img src="./img/snow-family.png" width="1200px", height="900px">
-                </div>
+   
+            </div>
                 <div class="slideshow-container">
 
-                <div class="mySlides fade">
-                  <div class="numbertext">1 / 3</div>
-                  <img src="./img/01_family.jpg" style="width:100%">
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">2 / 3</div>
-                  <img src="./img/02_family.jpg" style="width:100%">
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="./img/03_family.jpg" style="width:100%">
-                </div>
-                
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="./img/04_family.jpg" style="width:100%">
-                  </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 2</div>
+                      <img src="./img/01_family.jpg" style="width: 700px; height: 500px;">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="./img/02_family.jpg" style="width: 100px; height: 700px;">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 4</div>
+                      <img src="./img/03_family.jpg" style="width: 600px; height: 400px;">
+                      </div>
 
-                  <div class="mySlides fade">
-                    <div class="numbertext">4 / 5</div>
-                    <img src="./img/05_family.jpg" style="width:100%">
-                  </div>
+                     <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="./img/04_family.jpg" style="width: 600px; height: 400px;">
+                      </div>
 
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-                
+                      <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="./img/05_family.jpg" style="width: 600px; height: 400px;">
+                      </div>
+                    </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    <br>
+                      <div class="dots">
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                             <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span> 
+                         </div>
+                      </div> 
+                       <div class="family-text">
+                        <p>大空リゾート®からは無料のシャトルバスによるアクセスも可能です。</p>
+                        <p> ホテルに到着したらフロントでチェックインをお済ませ下さい。</p>
+                        </div> 
+                        <div class="box1">
+                          <img src="./img/box1.png"width=1200px;, height="400px">
+                        </div>
+                        <div class="box2">
+                          <img src="./img/box2.png"width=1200px;, height="400px">
+                        </div>
+                        <div class="mama-papa">
+                          <img class="01" src="./img/01_happy.jpg" alt="">
+                          <img class="02" src="./img/02_happy.png" alt="">
+                          <img class="03" src="./img/03_happy.png" alt="">
+                          <img class="04" src="./img/04_happy.jpg" alt="">
+                        </div>
+                        <div class="mama-papa_text">
+                          <p>大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。全室がバス・トイレ独立型で</p>
+                          <p> 小さなお子様と一緒の宿泊にも安心。認定部屋のプラナフォースルームは靴が脱げる</p> 
+                          <p>お部屋でお子様と一緒にお寛ぎいただけます。</p>
+                        </div>
+                        <div class="box3">
+                          <img src="./img/box3.png"width=1200px;, height="400px">
+                        </div>
+                       <div class="slideshow-champ">
+                          <div class="champ">
+                             <div class="numbertext">1 / 2</div>
+                             <img src="./img/01_cham.jpg" style="width: 600px; height: 400px;">
+                           </div>
+                           <div class="champ">
+                             <div class="numbertext">2 / 3</div>
+                             <img src="./img/02_cham.jpg" style="width: 600px; height: 400px;">
+                           </div>
+                           <div class="champ">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="./img/03_cham.jpg" style="width: 600px; height: 400px;">
+                          </div>
+                          <div class="champ">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="./img/04_cham.jpg" style="width: 600px; height: 400px;">
+                          </div>
+                          <div class="champ">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="./img/05_cham.jpg" style="width: 600px; height: 400px;">
+                          </div>
+                      
+                          <!-- Swiper -->
+                          <div class="swiper mySwiper">
+                              <div class="swiper-wrapper">
+                                 <div class="champ"></div>
+                                 <div class="champ"></div>
+                                 <div class="champ"></div>
+                                 <div class="champ"></div>
+                                 <div class="champ"></div>
+                               </div>
+                              <div class="swiper-pagination"></div>
+                           </div>
+                        </div>
+                      </div>
+                      <!-- Swiper JS -->
+                   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+                   <!-- Initialize Swiper -->
+                           <script>
+                            var swiper = new Swiper(".mySwiper", {
+                             pagination: {
+                             el: ".swiper-pagination",
+                             dynamicBullets: true,
+                              },
+                               });
+                           </script>
                 </div>
-                <br>
+                    <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
                 
-                <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
-                
-                <script>
-                let slideIndex = 1;
-                showSlides(slideIndex);
-                
-                function plusSlides(n) {
-                  showSlides(slideIndex += n);
-                }
-                
-                function currentSlide(n) {
-                  showSlides(slideIndex = n);
-                }
-                
-                function showSlides(n) {
-                  let i;
-                  let slides = document.getElementsByClassName("mySlides");
-                  let dots = document.getElementsByClassName("dot");
-                  if (n > slides.length) {slideIndex = 1}    
-                  if (n < 1) {slideIndex = slides.length}
-                  for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
-                  }
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                  }
-                  slides[slideIndex-1].style.display = "block";  
-                  dots[slideIndex-1].className += " active";
-                }
-                </script>
+                    
                 
 </body>
 </html>
