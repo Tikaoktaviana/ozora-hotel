@@ -9,128 +9,129 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <title>hotel ozora</title>
-    <style>
-        .mySlides {display:none;}
-    </style>
 </head>
 <body>
-    <div class="background">
-     <header class="header">
-      </header>
-   
+  <div id="background">
+    <div class="background-container">
+      <div class="all-container">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <img src="./img/01_family.jpg" style="width: 700px; height: 500px;">
             </div>
-                <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                      <div class="numbertext">1 / 2</div>
-                      <img src="./img/01_family.jpg" style="width: 700px; height: 500px;">
-                    </div>
                     
-                    <div class="mySlides fade">
-                      <div class="numbertext">2 / 3</div>
-                      <img src="./img/02_family.jpg" style="width: 100px; height: 700px;">
-                    </div>
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/02_family.jpg" style="width: 700px; height: 500px;">
+            </div>
                     
-                    <div class="mySlides fade">
-                      <div class="numbertext">3 / 4</div>
-                      <img src="./img/03_family.jpg" style="width: 600px; height: 400px;">
-                      </div>
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./img/03_family.jpg" style="width: 700px; height: 500px;">
+            </div>
 
-                     <div class="mySlides fade">
-                        <div class="numbertext">3 / 4</div>
-                        <img src="./img/04_family.jpg" style="width: 600px; height: 400px;">
-                      </div>
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./img/04_family.jpg" style="width: 700px; height: 500px;">
+            </div>
 
-                      <div class="mySlides fade">
-                        <div class="numbertext">3 / 4</div>
-                        <img src="./img/05_family.jpg" style="width: 600px; height: 400px;">
-                      </div>
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./img/05_family.jpg" style="width: 700px; height: 500px;">
+            </div>
+            <div class="dots">
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+              </div>
+            </div> 
+                <div class="family-text">
+                <h2>大空リゾート®からは無料のシャトルバスによるアクセスも可能です。</h2>
+                <h2>ホテルに到着したらフロントでチェックインをお済ませ下さい。</h2>
+                </div>  
+          </div>   
+              <div class="box1-container">
+                 <div class="box1">
+                    <img src="./img/box1.png"width=1200px;, height="400px">
+                  </div>
+                  <div class="box2">
+                    <img src="./img/box2.png"width=1200px;, height="400px">
+                  </div>
+              </div>             
+              <div class="mamapapa-container">
+                  <div class="mama-papa">
+                   <img class="01" src="./img/01_happy.jpg" alt="">
+                    <img class="02" src="./img/02_happy.png" alt="">
+                    <img class="03" src="./img/03_happy.png" alt="">
+                    <img class="04" src="./img/04_happy.jpg" alt="">
+                  </div>
+                    <div class="mama-papa_text">
+                      <h2>大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。全室がバス・トイレ独立型で</h2>
+                      <h2> 小さなお子様と一緒の宿泊にも安心。認定部屋のプラナフォースルームは靴が脱げる</h2>
+                      <h2>お部屋でお子様と一緒にお寛ぎいただけます。</h2>
+                     </div>
+               </div>
+                <div class="box3-container">
+                    <div class="box3">
+                       <img src="./img/box3.png"width=1200px;, height="400px">
                     </div>
-                    </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                    <br>
-                      <div class="dots">
-                        <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span> 
-                            <span class="dot" onclick="currentSlide(2)"></span> 
-                             <span class="dot" onclick="currentSlide(3)"></span> 
-                            <span class="dot" onclick="currentSlide(4)"></span> 
-                         </div>
-                      </div> 
-                       <div class="family-text">
-                        <p>大空リゾート®からは無料のシャトルバスによるアクセスも可能です。</p>
-                        <p> ホテルに到着したらフロントでチェックインをお済ませ下さい。</p>
-                        </div> 
-                        <div class="box1">
-                          <img src="./img/box1.png"width=1200px;, height="400px">
-                        </div>
-                        <div class="box2">
-                          <img src="./img/box2.png"width=1200px;, height="400px">
-                        </div>
-                        <div class="mama-papa">
-                          <img class="01" src="./img/01_happy.jpg" alt="">
-                          <img class="02" src="./img/02_happy.png" alt="">
-                          <img class="03" src="./img/03_happy.png" alt="">
-                          <img class="04" src="./img/04_happy.jpg" alt="">
-                        </div>
-                        <div class="mama-papa_text">
-                          <p>大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。全室がバス・トイレ独立型で</p>
-                          <p> 小さなお子様と一緒の宿泊にも安心。認定部屋のプラナフォースルームは靴が脱げる</p> 
-                          <p>お部屋でお子様と一緒にお寛ぎいただけます。</p>
-                        </div>
-                        <div class="box3">
-                          <img src="./img/box3.png"width=1200px;, height="400px">
-                        </div>
-                       <div class="slideshow-champ">
-                          <div class="champ">
-                             <div class="numbertext">1 / 2</div>
-                             <img src="./img/01_cham.jpg" style="width: 600px; height: 400px;">
-                           </div>
-                           <div class="champ">
-                             <div class="numbertext">2 / 3</div>
-                             <img src="./img/02_cham.jpg" style="width: 600px; height: 400px;">
-                           </div>
-                           <div class="champ">
-                            <div class="numbertext">3 / 4</div>
-                            <img src="./img/03_cham.jpg" style="width: 600px; height: 400px;">
-                          </div>
-                          <div class="champ">
-                            <div class="numbertext">4 / 5</div>
-                            <img src="./img/04_cham.jpg" style="width: 600px; height: 400px;">
-                          </div>
-                          <div class="champ">
-                            <div class="numbertext">4 / 5</div>
-                            <img src="./img/05_cham.jpg" style="width: 600px; height: 400px;">
-                          </div>
-                          
-                          <!-- Swiper -->
-                          <div class="swiper mySwiper">
-                              <div class="swiper-wrapper">
-                                 <div class="champ"></div>
-                                 <div class="champ"></div>
-                                 <div class="champ"></div>
-                                 <div class="champ"></div>
-                                 <div class="champ"></div>
-                               </div>
-                              <div class="swiper-pagination"></div>
-                           </div>
-                        </div>
+                  </div>
+
+                <div class="champ-text">
+                    <h2>キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し</h2> 
+                    <h2> お部屋でキャンプの疑似体験をしていただけます</h2> 
+                    <h2>さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる</h2> 
+                    <h2>ルーム用プラネタリウムもご用意しました</h2> 
+                </div>
+              <div class="box4-5">
+                <div class="box4">
+                  <img src="./img/box4.png"width=1200px;, height="400px">
+                </div>
+                <div class="box5">
+                  <img src="./img/box5.png"width=1200px;, height="400px">
+                </div>
+              </div>
+            </div>
+            <div class="bufe-container">
+              <div class="bufe-text">
+                <h2>パフォーマンスキッチンでシェフが目の前で仕上げる特製料理が盛りだくさん。</h2>
+                <h2>ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。</h2>
+                <h2>また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、</h2>
+                <h2>ご家族みなさまでお楽しみいただけます。</h2>
+              </div>
+                <div class="jyaranchikomi">
+                    <img src="./img/jyarankuchikomi.png">
+                </div>
+                <div class="performen">
+                  <img src="./img/performen.png">
+                </div>
+                <div class="kupon">
+                  <img src="./img/kupon.png">
+                </div>
+                <div class="kupon-text">
+                  <h2>※クーポン取得ページにてクーポンの使用条件とご利用上の注意をご確認ください。</h2>
+                  <h2>クーポンには配布期間が設けられています。</h2>
+                </div>
+                <div class="bottom-grup">
+                  <div class="bottom-jal">
+                      <div class="bottom1">
+                        <a href=""><img src="./img/jal-button.png"alt=""></a>
                       </div>
-                      <div class="champ-text">
-                         <p>キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し</p>
-                         <p>お部屋でキャンプの疑似体験をしていただけます</p>
-                         <p> さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる</p>
-                         <p> ルーム用プラネタリウムもご用意しました</p> 
+                      <div class="bottom2">
+                        <a href=""><img src="./img/ana-button.png"alt=""></a>
                       </div>
-                      <div class="box4">
-                        <img src="./img/box4.png"width=1200px;, height="400px">
-                      </div>
-                       <div class="box5">
-                        <img src="./img/box5.png"width=1200px;, height="400px">
-                       </div>
-                      </br>
+                  </div>
+                      <div class="plan-buttom">
+                        <a href=""><img src="./img/plan-buttom.png"alt=""></a>
+                      </div>  
+                </div>
+             </div>
                                             <!-- Swiper JS -->
                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
@@ -143,7 +144,6 @@
                               },
                                });
                            </script>
-                </div>
                     <script>
                     let slideIndex = 1;
                     showSlides(slideIndex);
@@ -171,9 +171,12 @@
                       slides[slideIndex-1].style.display = "block";  
                       dots[slideIndex-1].className += " active";
                     }
+                    /*champ slide */
+
                     </script>
-                
-                    
-                
+       </div> 
+    </div>
+  </div>
+</div>                          
 </body>
 </html>

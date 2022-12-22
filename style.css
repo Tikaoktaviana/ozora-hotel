@@ -3,14 +3,19 @@
 }
 @media only screen and (min-width: 1024px){
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.background{
-    background-image: url(./img/background.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.body{
     max-width: 1940px;
     height: 9900px;
     margin-top: 0;
+}
+#background{
+  background-image: url(./img/background.png);
 }
 .mySlides{
     margin-top: -500px;
@@ -29,10 +34,6 @@ img {vertical-align: middle;}
 .dots{
     margin-left: 80px;
     position: center;
-    
-}
-.mySlides a{
-  margin-left: 3000px;
 }
 .family-text{
   margin-left: 700px;
@@ -60,7 +61,9 @@ img {vertical-align: middle;}
   height: auto;
 }
 .mama-papa_text{
-  margin-left: 500px;
+  max-width: 200px;
+  font-size: 14px;
+  margin-left: -300px;
   font-family: 'Noto Serif JP', serif; 
   margin-top: -150px;
   color: white;
@@ -85,11 +88,86 @@ img {vertical-align: middle;}
   font-family: 'Noto Serif JP', serif; 
   color: white;
   height: 600px;
-  margin-left: 340px;
+  margin-left: -300px;
+  text-align: center;
+  margin-top: -500px;
+}
+.champ-container{
+  margin-top: 600px;
+
+}
+.box3{
+  margin-top: 300px;
+  margin-left: 300px;
+
 }
 .box4{
-  margin-top: 30px;
+  margin-left: 100px;
+}
+.box5{
+  margin-left: 100px;
   
+}
+.box4-5{
+  margin-top: 1000px;
+  margin-left: 300px;
+}
+.champ-container{
+  max-width: 200px;
+  
+}
+/* bufe container */
+.bufe-text{
+  color: #fff;
+  margin-left: -200px;
+  margin-top: 1200px;
+  text-align: center;
+}
+.h2{
+  font-family: 'Noto Serif JP', serif; 
+  font-size: 40px;
+}
+/* jyaranchikomi */
+.jyaranchikomi{
+   margin-left: 370px;
+}
+.performen{
+  margin-top: 20px;
+  margin-left: 420px;
+}
+.kupon{
+  margin-left: 650px;
+  margin-top: 30px;
+}
+.kupon-text{
+  color: #fff;
+  font-family: 'Noto Serif JP', serif; 
+  margin-top:5px ;
+  margin-left:100px ;
+  text-align: center;
+
+  /* button */
+}
+.buttom1{
+  background-image: url(./img/buttom-jal.png);
+}
+button a{
+  color: black;
+}
+.bottom1{
+    margin: 50px;
+    margin-left: 300px;
+}
+.bottom-jal {
+  display: flex;
+}
+.bottom2{
+  margin: 50px;
+  margin-left: 50px;
+}
+.plan-buttom{
+  margin-left: 550px;
+
 }
 /* Next & previous buttons */
 .prev, .next {
