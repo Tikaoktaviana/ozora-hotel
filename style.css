@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
 @media only screen and (min-width: 320px) {
 }
-@media only screen and (min-width: 1024px){
-  *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    box-sizing: border-box;
-  }
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
   #background{
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } 
   /* Slideshow container */
   .slideshow-container {
     max-width: 500px;
@@ -45,114 +45,146 @@
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .dots{
-    margin-top: -1000px;
-  }
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-  /* box1-container */
-  .family-text{
-    color:#fff;
-    margin-top: 200px;
-    margin-left: 200px;
-  }
-  .box1-container{
-      margin-left: 700px;
-  }
-  /* mama papa*/
-  .mama-papa{
-    width: 920px;
-    height: 730px;
-    margin-left: 500px;
-    margin-top: 500px;
-    position: space;
-  }
-  .mama-papa img{
-    width: 400px;
-    height: auto;
-  }
-  .mamapapa-container{
-    margin-left: -400px;
-    margin-top: 600px;
-  }
-  .mama-papa_text{
-    color: #fff;
-    text-align: center;
-  }
-  /*box3 container*/
-  .box3-container{
-    margin-left: 200px;
-  }
-  /* champ slider */
-  .slideshow-container {
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dots{
+  margin-top: -1000px;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* box1-container */
+.family-text{
+  color:#fff;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.family-container{
+  margin: 200px;
+}
+/* mama papa*/
+.mama-papa{
+  width: 920px;
+  height: 730px;
+  margin-left: 500px;
+  margin-top: 500px;
+  position: space;
+}
+.mama-papa img{
+  width: 400px;
+  height: auto;
+}
+.mamapapa-container{
+  margin-left: -400px;
+  margin-top: 600px;
+}
+.mama-papa_text{
+  color: #fff;
+  text-align: center;
+}
+/*box3 container*/
+.box3{
+  margin-left: 400px;
+}
+
+/* champ slider */  
+.champ-text{
+  color: #fff;
+  text-align: center;
+}
+.champ-container{
+  max-width: 700px;
+  margin-left: 400px;
+  margin-top: 500px;
+/* champ container */
+}
+.champ-container{
+  max-width: auto;
+
+}
+.box3-container{
+  margin-left: 700px;
+}
+.button{
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  padding-bottom: 2px;
+  width: 75px;
+  margin-top: -200px;
+}
+
+.slideshow-container{
+   max-width: 700px;
+   text-align: center;
+   margin-left: 200px;
+   margin-top: 1150px;
+   margin-bottom: 50px;
+}
+.slideshow {
+  position: relative;
+  text-align: center;
+  line-height: 400px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+/* slideshow item */
+.slideshow--item {
+  width: 700px;
+  height: 500px;
+  line-height: 1.5;
+  position: absolute;
+  top: 100px;
+  margin-left:300px ;
+  overflow: hidden;
+  visibility: hidden;
     
-  }
-  .slideshow {
-    position: relative;
-    text-align: center;
-    line-height: 400px;
-    padding-bottom: 30px;
-    margin: 0 auto;
-    transition: all 0.5s ease;
-  }
-  /* slideshow item */
-  .slideshow--item {
-    width: 100%;
-    height: 300px;
-    line-height: 1.5;
-    position: absolute;
-    top: 0;
-    overflow: hidden;
-    visibility: hidden;
-    
-  }
-  .slideshow--bullet:checked + .slideshow--item {
+}
+.slideshow--bullet:checked + .slideshow--item {
     visibility: visible;
   }
-  .slideshow[data-transition="fade"] .slideshow--item {
+.slideshow[data-transition="fade"] .slideshow--item {
     visibility: visible;
     opacity: 0;
     transition: .3s ease-out opacity;
-  }
-  .slideshow[data-transition="fade"] .slideshow--bullet:checked + .slideshow--item {
-    opacity: 1;
-  }
-  /* slideshow navigation */
-  .slideshow--nav {
+}
+.slideshow[data-transition="fade"] .slideshow--bullet:checked + .slideshow--item {
+  opacity: 1;
+}
+/* slideshow navigation */
+.slideshow--nav {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -168,7 +200,7 @@
     -ms-user-select: none;
     user-select: none;
   }
-  .slideshow--nav:after {
+.slideshow--nav:after {
     display: block;
     content: '\25B6';
     font-size: 1.2em;
@@ -184,46 +216,47 @@
     border-radius: 50%;
     margin-top: -1.5em;
     transition: all 0.5s ease;
-  }
-  .slideshow--nav:hover:after {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  .slideshow--nav-previous {
+}
+.slideshow--nav:hover:after {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.slideshow--nav-previous {
     left: -45px;
     display: block;
-  }
-  .slideshow--nav-previous:after {
+}
+.slideshow--nav-previous:after {
     -webkit-transform: scaleX(-1);
     -moz-transform: scaleX(-1);
     transform: scaleX(-1);
     right: auto;
     left: 10px;
-  }
-  .slideshow--nav-next {
+}
+.slideshow--nav-next {
     left: 50%;
     display: block;
-  }
+}
   /* Radiobuttons to control the slideshow */
-  .slideshow--bullet {
+.slideshow--bullet {
     font-size: .75em;
     width: 8px;
     height: 8px;
     display: inline-block;
-    position: relative;
     z-index: 99;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     background: #8d8d8d;
+    padding: 15px;
     border-radius: 50%;
     transition: all 0.5s ease;
-  }
-  .slideshow--bullet:checked {
-    background: rgb(149, 13, 13);
-    outline: none;
-  }
-  .button-container {
-    padding: 20px;
+}
+.slideshow--bullet:checked {
+  background: rgb(149, 13, 13);
+  outline: none;
+  padding: 15px;
+
+
+
   }
   
   .folio-button {
@@ -262,5 +295,86 @@
       .button-container {
       margin-top: 120px;
     }
-  }
-}  
+  } 
+/* bufe text */
+.bufe-text h2{
+  color: #fff;
+  margin-left: -200px;
+  text-align: center;
+}
+.bufe-container{
+  margin-top: 1500px;
+/* button grup */
+}
+.box1-container{
+  margin-left: 600px
+
+}
+.button1{
+  background:url(./img/botton-4.png);
+  background-repeat: no-repeat;
+  transform: none;
+  border: none;
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  margin-left: -800px;
+  margin-top: 270px;
+}
+.button2{
+  background:url(./img/botton-4.png);
+  background-repeat: no-repeat;
+  transform: none;
+  border: none;
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  margin-left: -800px;
+  margin-top: 270px;
+}
+.button3{
+  background:url(./img/botton-4.png);
+  background-repeat: no-repeat;
+  transform: none;
+  border: none;
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  margin-left: -800px;
+  margin-top: 270px;
+}
+.button4{
+  background:url(./img/botton-4.png);
+  background-repeat: no-repeat;
+  transform: none;
+  border: none;
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -115px;
+  
+}
+.button5{
+  background:url(./img/botton-4.png);
+  background-repeat: no-repeat;
+  transform: none;
+  border: none;
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -115px;
+}
+.box4-5-container{
+  margin-left: 300px;
+  max-width: 400px;
+}
+.box3-container{
+  margin-left: 300px;
+  max-width: 400px;
+}
+.button3{
+  margin-left: 400px;
+  margin-top:-130px ;
+}
