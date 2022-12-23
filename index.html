@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+      <link rel="stylesheet" href="style.css">
       <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-    <title>hotel ozora</title>
-</head>
-<body>
-  <div id="background">
-    <div class="background-container">
-      <div class="all-container">
-        <div class="slideshow-container">
+      <link rel="stylesheet" href="script.js">
+
+  </head>
+
+  <body>
+    <div id="background">
+      <div class="background-container">
+        <div class="mySlides-container">
           <div class="mySlides fade">
-            <div class="numbertext">1 / 2</div>
-            <img src="./img/01_family.jpg" style="width: 700px; height: 500px;">
-            </div>
-                    
-            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+                <img src="./img/01_family.jpg" style="width: 700px; height: 500px;">
+          </div>
+                  
+          <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./img/02_family.jpg" style="width: 700px; height: 500px;">
-            </div>
-                    
-            <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-            <img src="./img/03_family.jpg" style="width: 700px; height: 500px;">
-            </div>
+               <img src="./img/02_family.jpg" style="width: 700px; height: 500px;">
+          </div>
+                  
+          <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+                <img src="./img/03_family.jpg" style="width: 700px; height: 500px;">
+          </div>
+          <div class="mySlides fade">
+               <div class="numbertext">3 / 4</div>
+                <img src="./img/04_family.jpg" style="width: 700px; height: 500px;">
+          </div>
 
             <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-            <img src="./img/04_family.jpg" style="width: 700px; height: 500px;">
-            </div>
-
-            <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-            <img src="./img/05_family.jpg" style="width: 700px; height: 500px;">
+               <div class="numbertext">4 / 5</div>
+                <img src="./img/03_family.jpg" style="width: 700px; height: 500px;">
             </div>
             <div class="dots">
               <div style="text-align:center">
@@ -50,133 +52,100 @@
                 <span class="dot" onclick="currentSlide(3)"></span> 
                 <span class="dot" onclick="currentSlide(4)"></span> 
               </div>
-            </div> 
-                <div class="family-text">
+        </div>
+      </div>
+          <div class="box1-container">
+            <div class="family-text">
                 <h2>大空リゾート®からは無料のシャトルバスによるアクセスも可能です。</h2>
-                <h2>ホテルに到着したらフロントでチェックインをお済ませ下さい。</h2>
-                </div>  
-          </div>   
-              <div class="box1-container">
-                 <div class="box1">
-                    <img src="./img/box1.png"width=1200px;, height="400px">
-                  </div>
-                  <div class="box2">
-                    <img src="./img/box2.png"width=1200px;, height="400px">
-                  </div>
-              </div>             
-              <div class="mamapapa-container">
-                  <div class="mama-papa">
-                   <img class="01" src="./img/01_happy.jpg" alt="">
-                    <img class="02" src="./img/02_happy.png" alt="">
-                    <img class="03" src="./img/03_happy.png" alt="">
-                    <img class="04" src="./img/04_happy.jpg" alt="">
-                  </div>
-                    <div class="mama-papa_text">
-                      <h2>大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。全室がバス・トイレ独立型で</h2>
-                      <h2> 小さなお子様と一緒の宿泊にも安心。認定部屋のプラナフォースルームは靴が脱げる</h2>
-                      <h2>お部屋でお子様と一緒にお寛ぎいただけます。</h2>
-                     </div>
-               </div>
-                <div class="box3-container">
-                    <div class="box3">
-                       <img src="./img/box3.png"width=1200px;, height="400px">
-                    </div>
-                  </div>
-
-                <div class="champ-text">
-                    <h2>キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し</h2> 
-                    <h2> お部屋でキャンプの疑似体験をしていただけます</h2> 
-                    <h2>さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる</h2> 
-                    <h2>ルーム用プラネタリウムもご用意しました</h2> 
-                </div>
-              <div class="box4-5">
-                <div class="box4">
-                  <img src="./img/box4.png"width=1200px;, height="400px">
-                </div>
-                <div class="box5">
-                  <img src="./img/box5.png"width=1200px;, height="400px">
-                </div>
-              </div>
+                 <h2> ホテルに到着したらフロントでチェックインをお済ませ下さい。</h2>
             </div>
-            <div class="bufe-container">
-              <div class="bufe-text">
-                <h2>パフォーマンスキッチンでシェフが目の前で仕上げる特製料理が盛りだくさん。</h2>
-                <h2>ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。</h2>
-                <h2>また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、</h2>
-                <h2>ご家族みなさまでお楽しみいただけます。</h2>
-              </div>
-                <div class="jyaranchikomi">
-                    <img src="./img/jyarankuchikomi.png">
-                </div>
-                <div class="performen">
-                  <img src="./img/performen.png">
-                </div>
-                <div class="kupon">
-                  <img src="./img/kupon.png">
-                </div>
-                <div class="kupon-text">
-                  <h2>※クーポン取得ページにてクーポンの使用条件とご利用上の注意をご確認ください。</h2>
-                  <h2>クーポンには配布期間が設けられています。</h2>
-                </div>
-                <div class="bottom-grup">
-                  <div class="bottom-jal">
-                      <div class="bottom1">
-                        <a href=""><img src="./img/jal-button.png"alt=""></a>
-                      </div>
-                      <div class="bottom2">
-                        <a href=""><img src="./img/ana-button.png"alt=""></a>
-                      </div>
-                  </div>
-                      <div class="plan-buttom">
-                        <a href=""><img src="./img/plan-buttom.png"alt=""></a>
-                      </div>  
+            <div class="box1">
+              <img src="./img/box1.png" style="width: 1200px; height: 500px;">
+              <div class="box1">
+              <img src="./img/box2.png" style="width: 1200px; height: 500px;">
+            </div>
+          </div>
+          <div class="mamapapa-container">
+            <div class="mama-papa">
+             <img class="01" src="./img/01_happy.jpg" alt="">
+              <img class="02" src="./img/02_happy.png" alt="">
+              <img class="03" src="./img/03_happy.png" alt="">
+              <img class="04" src="./img/04_happy.jpg" alt="">
+            </div>
+            <div class="mama-papa_text">
+                <h2>大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。全室がバス・トイレ独立型で</h2>
+                <h2> 小さなお子様と一緒の宿泊にも安心。認定部屋のプラナフォースルームは靴が脱げる</h2>
+                <h2>お部屋でお子様と一緒にお寛ぎいただけます。</h2>
+             </div>
+             <div class="box3-container">
+                <div class="box3">
+                  <img src="img/box3.png"width=1200px;, height="400px">
                 </div>
              </div>
-                                            <!-- Swiper JS -->
-                   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+             <div class="slideshow-container">
+              <div class="slideshow" data-transition="fade">
+                  <input type="radio" name="ss2" id="ss2-item-1" class="slideshow--bullet" checked="checked" />
+                  <div class="slideshow--item">
+                    <img src="./img/01_cham.jpg"style="width: 1000px; height: 900px;">
+                  </div>
+                
+                  <input type="radio" name="ss2" id="ss2-item-2" class="slideshow--bullet" />
+                  <div class="slideshow--item">
+                    <img src="./img/02_cham.jpg" style="width: 1000px; height: 900px;"> 
+                  </div>
+                
+                  <input type="radio" name="ss2" id="ss2-item-3" class="slideshow--bullet" />
+                  <div class="slideshow--item">
+                    <img src="./img/03_cham.jpg"style="width: 1000px; height: 900px;">
+                  </div>
+                  
+                  <input type="radio" name="ss2" id="ss2-item-4" class="slideshow--bullet" />
+                  <div class="slideshow--item">
+                    <img src="./img/04_cham.jpg" style="width: 1000px; height: 900px;">
+                  </div>
+                </div>
+              </div>
+              
+              
+            <div class="champ-text">
+              <h2>キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し、
+                お部屋でキャンプの疑似体験をしていただけます。
+                さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる
+                ルーム用プラネタリウムもご用意しました。
+                </h2>
+            </div>
 
-                   <!-- Initialize Swiper -->
-                           <script>
-                            var swiper = new Swiper(".mySwiper", {
-                             pagination: {
-                             el: ".swiper-pagination",
-                             dynamicBullets: true,
-                              },
-                               });
-                           </script>
-                    <script>
-                    let slideIndex = 1;
-                    showSlides(slideIndex);
-                    
-                    function plusSlides(n) {
-                      showSlides(slideIndex += n);
-                    }
-                    
-                    function currentSlide(n) {
-                      showSlides(slideIndex = n);
-                    }
-                    
-                    function showSlides(n) {
-                      let i;
-                      let slides = document.getElementsByClassName("mySlides");
-                      let dots = document.getElementsByClassName("dot");
-                      if (n > slides.length) {slideIndex = 1}    
-                      if (n < 1) {slideIndex = slides.length}
-                      for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";  
-                      }
-                      for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                      }
-                      slides[slideIndex-1].style.display = "block";  
-                      dots[slideIndex-1].className += " active";
-                    }
-                    /*champ slide */
-
-                    </script>
-       </div> 
     </div>
   </div>
-</div>                          
-</body>
-</html>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      
+    
+  </body>
+  </html>
