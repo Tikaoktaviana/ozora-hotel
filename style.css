@@ -55,31 +55,96 @@ body {
   max-height: 9900px;
   max-width: 1900px;
   margin-top: 0;
- 
-}
-.top-container{
-  max-width: 400px;
-  margin-top: -350px;
-  text-align: center;
-  margin-left: 500px;
-}
-.family-text a{
-  color: #fff;
-  font-size: 36px;
 }
 
-#top-family{
-  text-align: center;
-}
-.top-family img{
-  margin-top: 20px;
-
-}
 .family-text{
   text-align: center;
+
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: 1200px 150px;
+  background-position: center; 
+  height: 250px;
+  width:1900px;
+  list-style-type: none;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 14px 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: rgb(209,197,113);
+  background: linear-gradient(190deg, rgba(209,197,113,1) 6%, rgba(255,250,237,1) 15%, rgba(230,207,145,1) 43%, rgba(229,207,147,1) 67%, rgba(253,247,230,1) 81%, rgba(211,198,116,1) 94%);
+  border-radius: 25px;
+}
+.nav{
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  background-image: url(./img/top-family2.png);
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-size: 1400px 160px;
+  text-align: center;
+  max-width: 1400px;
+  position: flex;
+}
+.nav ul{
+  text-align: center;
+  max-width: 1400px;
+}
+.nav ul li{
+  list-style: none;
+  display: inline;
+  margin-left: 105px;
+}
+.nav ul li a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#fff;
+  font-size:22px;
+  font-family:'Noto Serif JP', serif;
+  margin-top: 50px;
+  max-width: 1000px;
+}
+
+
+
 .family-title{
   text-align: center;
+  margin-top: -10px;
 }
 .star{
   height: 100%;
@@ -87,11 +152,181 @@ body {
   text-align: center;
   margin-top: -60px;
 }
-.button{
- background-image: url(./img/botton-4.png);
- background-repeat: no-repeat;
+.box1{
+  background-image: url(./img/box1.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 400px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  margin-left: 300px;
 
 }
+.box2{
+  background-image: url(./img/box2.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 400px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  margin-left: 300px;
+}
+.box3{
+  background-image: url(./img/box3.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 400px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  margin-left: 300px;
+}
+
+.box4{
+  background-image: url(./img/box4.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 400px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  margin-left: 300px;
+}
+.box5{
+  background-image: url(./img/box5.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 400px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  margin-left: 300px;
+
+}
+.grup .box1-button{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 450px;
+  max-width: 1200px;
+  margin-top: 250px;
+}
+.grup .box2-button{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 450px;
+  max-width: 1200px;
+  margin-top: 250px;
+}
+.grup .box3-button{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 450px;
+  max-width: 1200px;
+  margin-top: 250px;
+}
+.grup .box4-button{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 450px;
+  max-width: 1200px;
+  margin-top: 250px;
+}
+.grup .box5-button{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 450px;
+  max-width: 1200px;
+  margin-top: 250px;
+
+
+}
+.box1-button{
+  padding: 0;
+  margin: 0;
+  background-image: url(./img/blank-button.png);
+  background-repeat: no-repeat;
+  background-size: 300px 110px;
+  height: 110px;
+  width: 400px;
+
+}
+.box2-button{
+  padding: 0;
+  margin: 0;
+  background-image: url(./img/blank-button.png);
+  background-repeat: no-repeat;
+  background-size: 300px 110px;
+  height: 110px;
+  width: 400px;
+}
+.box3-button{
+  padding: 0;
+  margin: 0;
+  background-image: url(./img/blank-button.png);
+  background-repeat: no-repeat;
+  background-size: 300px 110px;
+  height: 110px;
+  width: 400px;
+}
+.box4-button{
+  padding: 0;
+  margin: 0;
+  background-image: url(./img/blank-button.png);
+  background-repeat: no-repeat;
+  background-size: 300px 110px;
+  height: 110px;
+  width: 400px;
+}
+.box5-button{
+  padding: 0;
+  margin: 0;
+  background-image: url(./img/blank-button.png);
+  background-repeat: no-repeat;
+  background-size: 300px 110px;
+  height: 110px;
+  width: 400px;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 25px;
+  font-family: 'Noto Serif JP', serif;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: -90px;
+}
+
+
+.success {color: rgb(255, 255, 255);}
+
+
+
+
+
+
+
+
+
+
+
+
+.grup a{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+ 
+}
+
 .family-container{
   background-image: url(./img/border-myslide1.png);
   background-size: 1600px 750px;
@@ -271,6 +506,6 @@ body {
   margin-top: -400px;
 }
 .flex-wrapper{
-display: absolute;
-top: -50px
+ display: absolute;
+ top: -50px
 }
