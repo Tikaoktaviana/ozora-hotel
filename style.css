@@ -140,12 +140,6 @@ li a:hover {
   margin-top: 50px;
   max-width: 1000px;
 }
-
-
-.family-title{
-  text-align: center;
-  margin-top: -10px;
-}
 .star{
   height: 100%;
   width: 100%;
@@ -159,6 +153,7 @@ li a:hover {
   height: 400px;
   width: 1200px;
   text-align: center;
+  margin-left: 380px;
   display: flex;
   margin-left: 300px;
 
@@ -170,6 +165,7 @@ li a:hover {
   height: 400px;
   width: 1200px;
   text-align: center;
+  margin-left: 380px;
   display: flex;
   margin-left: 300px;
 }
@@ -180,6 +176,7 @@ li a:hover {
   height: 400px;
   width: 1200px;
   text-align: center;
+  margin-left: 380px;
   display: flex;
   margin-left: 300px;
 }
@@ -191,6 +188,7 @@ li a:hover {
   height: 400px;
   width: 1200px;
   text-align: center;
+  margin-left: 380px;
   display: flex;
   margin-left: 300px;
 }
@@ -201,6 +199,7 @@ li a:hover {
   height: 400px;
   width: 1200px;
   text-align: center;
+  margin-left: 380px;
   display: flex;
   margin-left: 300px;
 
@@ -319,22 +318,26 @@ li a:hover {
 }
 
 .family-container{
-  background-image: url(./img/border-myslide1.png);
-  background-size: 1600px 750px;
-  height: 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  margin-top: -150px;
-  position: center;
-  margin-left: 150px;
+  margin-left: 30px;
 }
 .family{
+  background-image: url(./img/border-myslide1.png);
+  background-size: 1650px 750px;
+  height: 800px;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: -160px;
+  position: center;
+  margin-left: 100px;
+}
+.family-title{
+  margin-top: -30px;
   text-align: center;
-  display: contents;
 }
 
 .familyresort-text{
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .familyresort-text h2{
   color:#fff;
@@ -345,12 +348,7 @@ li a:hover {
 }
 .familyresort-container{
   display: flex;
-}
-.box1{
-  text-align: center;
-}
-.box2{
-  text-align: center;
+
 }
 .border-snow{
   height: auto;
@@ -397,9 +395,7 @@ li a:hover {
 .santa{
   margin-left:1700px;
   margin-top: -200px;
-}
-.box3{
-  text-align: center;
+
 }
 .buttom-img{
   text-align: center;
