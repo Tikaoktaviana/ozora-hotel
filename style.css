@@ -107,6 +107,7 @@ li a:hover {
   background: rgb(209,197,113);
   background: linear-gradient(190deg, rgba(209,197,113,1) 6%, rgba(255,250,237,1) 15%, rgba(230,207,145,1) 43%, rgba(229,207,147,1) 67%, rgba(253,247,230,1) 81%, rgba(211,198,116,1) 94%);
   border-radius: 25px;
+  height: 70%;
 }
 .nav{
   text-align: center;
@@ -139,7 +140,6 @@ li a:hover {
   margin-top: 50px;
   max-width: 1000px;
 }
-
 
 
 .family-title{
@@ -227,7 +227,7 @@ li a:hover {
   padding: 0;
   margin-left: 450px;
   max-width: 1200px;
-  margin-top: 250px;
+  margin-top: 240px;
 }
 .grup .box4-button{
   text-align: center;
@@ -235,7 +235,7 @@ li a:hover {
   padding: 0;
   margin-left: 450px;
   max-width: 1200px;
-  margin-top: 250px;
+  margin-top: 280px;
 }
 .grup .box5-button{
   text-align: center;
@@ -243,7 +243,7 @@ li a:hover {
   padding: 0;
   margin-left: 450px;
   max-width: 1200px;
-  margin-top: 250px;
+  margin-top: 280px;
 
 
 }
@@ -311,15 +311,6 @@ li a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
 .grup a{
   color: #fff;
   margin: 0;
@@ -363,7 +354,7 @@ li a:hover {
 }
 .border-snow{
   height: auto;
-  width: 1940px;
+  width: 1900px;
   margin: 0;
 }
 .mama-title{
@@ -416,9 +407,6 @@ li a:hover {
 
 }
 
-.champ-title{
-  text-align: center;
-}
 .swiper {
   max-width: 800px;
   max-height: 600px;
@@ -451,28 +439,53 @@ li a:hover {
   -webkit-align-items: center;
   align-items: center;
 }
-
+.champ-title{
+  text-align: center;
+  margin-top: -90px;
+}
 .champ-text{
   color: #fff;
-  text-align: center;
   font-size: 18px;
   margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Noto Serif JP', serif;
 }
 .champ-container{
   text-align: center;
 }
+
+.bufe-container{
+  padding: 0;
+  margin: 0;
+  max-width: 1000px;
+  text-align: center;
+  margin-left: 430px;
+}
 .bufe-title{
-  height: 100%;
-  width: 100%;
+  text-align: center;
+  margin-left: -180px;
+  margin-top: -60px;
 }
 .bufetext-container{
+  text-align: center;
+}
+
+.bufe-text{
+  color: #fff;
+  font-size: 18px;
   margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Noto Serif JP', serif;
 }
-.bufe-text h2{
-  color:#fff;
+.bottom-container{
+  text-align: center;
+}
+.bottom2-container{
+  text-align: center;
 
 }
-
 .kuchikomi{
   margin-top: 30px;
 }
@@ -480,7 +493,7 @@ li a:hover {
   margin-top: 40px;
 }
 .jalandana{
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .jalandana img{
   margin-left: 70px;
